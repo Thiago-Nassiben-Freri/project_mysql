@@ -25,7 +25,6 @@ if var_choice.upper() == 'I':
 
         if var_choice.upper() == 'N': 
             break
-    # resultado = cursor.fetchall() #ler o banco de dados
 elif var_choice.upper() == 'M': 
         comando_sel = 'SELECT * FROM vendas'
         cursor.execute(comando_sel)
